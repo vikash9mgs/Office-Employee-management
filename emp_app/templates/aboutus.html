@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet"/>
+    <link href="{% static 'css/all.css' %}" rel="stylesheet"/>
+    <link href="{% static 'fontawesome/all.min.css' %}" rel="stylesheet"/>
+    <script src="{% static 'fontawesome/all.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+</head>
+<style>
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+footer {
+  background: #212529;
+}
+
+
+
+
+
+</style>
+<body>
+<!--Navbar start-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!--Navbar end-->
+<div class="container">
+    <h1 style="text-align: center;margin: 20px;">About Us
+        <hr>
+    </h1>
+</div>
+<div class="container" style="background:#f8f9fa;">
+    <img src="{% static 'images/office.jpg'%}"
+         style="display: block;margin-left: auto;margin-right: auto;width: 50%;border:2px solid black;">
+    <div class="col-sm-8" style="font-size:18px;margin:auto;text-align:center;padding:20px; "> Employee management
+        software makes
+        easy for the employer to keep a track and check on the human
+        resource department just by a click of the mouse from anywhere in
+        the world thus making the work extremely easy for people having
+        offices at different locations. It makes easy to monitor the
+        workings of the employees and manage them.
+        Employee information management helps in deciding the future
+        management needs and any changes that has to be made for greater
+        productivity. It keeps the records of the functions performed by
+        the individual employee playing a vital role at the time of
+        performance appraisal.
+        Employee information management helps in deciding the future
+        management needs and any changes that has to be made for greater
+        productivity. It keeps the records of the functions performed by
+        the individual employee playing a vital role at the time of
+        performance appraisal.
+    </div>
+
+</div>
+</body>
+<!--Footer start-->
+
+<div class="mt-5">
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h1 text-white">FB.</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary"
+                                                                                                href="#">Bootstrapious.com</a>
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Recipient's username"
+                                   aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2" type="button"><i
+                                    class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!--Footer end-->
+</html>
